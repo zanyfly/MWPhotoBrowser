@@ -29,7 +29,7 @@ commits -> Copy the full SHA
 
 just like:
 
-
+![](https://raw.githubusercontent.com/EvoIos/MWPhotoBrowser/master/Screenshots/usingTargetImageExample.png)
 
 ------
 
