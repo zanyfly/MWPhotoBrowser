@@ -1,3 +1,38 @@
+
+# Update third library dependecy
+
+## Reason
+
+Beacuse My project need to this library and this project doesn't update for a long time. So I forked MWPhotoBrowser and update 3 library dependecy for using.
+
+**Update**
+
+- MBProgressHUD
+	- 0.9 -> 1.0.0
+- SDWebImage
+	- 3.7 ->  4.0.0
+- DACircularProgress
+	- 2.3 -> 2.3.1
+
+**Using**
+
+Insert these to your Podfile.
+
+```
+pod 'MWPhotoBrowser', :git => 'https://github.com/EvoIos/MWPhotoBrowser.git', :commit => 'de697e101195557ddca85661ebb266fd3f10776c'
+
+```
+
+This SHA you can find there:
+
+commits -> Copy the full SHA
+
+just like:
+
+
+
+------
+
 # MWPhotoBrowser
 
 <!--[![CI Status](http://img.shields.io/travis/Michael Waterfall/MWPhotoBrowser.svg?style=flat)](https://travis-ci.org/Michael Waterfall/MWPhotoBrowser)-->
