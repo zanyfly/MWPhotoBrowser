@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'MWPhotoBrowser'
-  s.version = '2.1.2-0.1.0'
+  s.version = '2.1.2-0.1.1'
   s.license = 'MIT'
   s.summary = 'This is an unoffical repo that forked from MWPhotoBrowser. Just update the dependency library version.'
   s.description = <<-DESCRIPTION
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     :git => 'https://github.com/EvoIos/MWPhotoBrowser.git',
-    :tag => '2.1.2-0.1.0'
+    :tag => '2.1.2-0.1.1'
   }
   s.platform = :ios, '7.0'
   s.source_files = 'Pod/Classes/**/*'
