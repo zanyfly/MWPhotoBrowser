@@ -14,7 +14,8 @@ Beacuse My project need to this library and this project doesn't update for a lo
 - DACircularProgress
 	- 2.3 -> 2.3.1
 
-**Using**
+## Usage by `:git`
+
 
 Insert these to your Podfile.
 
@@ -30,6 +31,19 @@ commits -> Copy the full SHA
 just like:
 
 ![](https://raw.githubusercontent.com/EvoIos/MWPhotoBrowser/master/Screenshots/usingTargetImageExample.png)
+
+## Usage by self-CocoaPods-Specs
+
+Add library in your Podfile:
+
+```ruby
+# Pay attention to here, you must add source in this session.
+source 'https://github.com/EvoIos/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'MWPhotoBrowser', '~> 2.1.2-0.1.1'
+
+```
 
 ------
 
